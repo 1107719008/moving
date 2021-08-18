@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{B7B44BA2-60F7-FE44-D3A0-1015A09AB59E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TeamDoor.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlatFormController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/playerMovement.cs" Line="192" Column="10" />
+      <File FileName="Assets/Scripts/ExplosionRock.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/HighLook.cs" Line="75" Column="49" />
+      <File FileName="Assets/Scripts/DoorTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MovableObj.cs" />
+      <File FileName="Assets/Scripts/treasureMulti.cs" Line="55" Column="34" />
+      <File FileName="Assets/Scripts/TeamDoor.cs" Line="31" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="movingthings" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="TeamDoor.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9ebf89f6-74fa-4d99-b6f9-179cd686b506" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
