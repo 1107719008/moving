@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\PlatFormController.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementPC.cs" />
     <Compile Include="Assets\Scripts\TeamDoor.cs" />
+    <Compile Include="Assets\Scripts\colorChange.cs" />
     <Compile Include="Assets\Scripts\playerMovement.cs" />
     <Compile Include="Assets\Scripts\treasureMulti.cs" />
     <Compile Include="Assets\UJoystick\Content\Script\Core\bl_Joystick.cs" />
