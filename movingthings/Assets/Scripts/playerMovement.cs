@@ -12,8 +12,9 @@ public class playerMovement : MonoBehaviour
     private float looker;
     public float sensitivity = 5;
 
-    //Seesaw
+    
 
+    //Seesaw
     [SerializeField] private GameObject SeesawSet;
 
     //[SerializeField] private float Speed = 5;
@@ -39,6 +40,12 @@ public class playerMovement : MonoBehaviour
     private bool playerIsHitByRock;
 
 
+    //armor
+    [SerializeField]private GameObject armor;
+    [SerializeField] private GameObject armorTag;
+    private bool playerHasArmor;
+
+
     private void Start()
     {
         normalSpeed = speed;
@@ -52,6 +59,9 @@ public class playerMovement : MonoBehaviour
         Rock.SetActive(false);
         playerIsHitByRock = false;
 
+        //armor
+        armor.SetActive(false);
+        playerHasArmor = false;
 
     }
 
@@ -118,8 +128,12 @@ public class playerMovement : MonoBehaviour
         {
             StartCoroutine(RockDestroy());//destroy the rock when it hits player
         }
-        
 
+        //armor
+        if (playerHasArmor == true)
+        {
+            armor.SetActive(true);
+        }
 
 
 
@@ -198,7 +212,12 @@ public class playerMovement : MonoBehaviour
         {
             Rock.SetActive(true);
         }
-        
+
+        //armor
+        if (other.gameObject.name== "armorTG")
+        {
+            playerHasArmor = true;
+        }
 
 
     }

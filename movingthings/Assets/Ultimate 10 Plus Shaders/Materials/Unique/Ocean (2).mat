@@ -30,9 +30,9 @@ Material:
     m_Floats:
     - _Cull: 0
     - _Glossiness: 0.631
-    - _Metallic: 0.16
+    - _Metallic: 0.12
     - _NormalStrength1: 0.17
-    - _NormalStrength2: 0.8
+    - _NormalStrength2: 0.58
     m_Colors:
     - _Color: {r: 0, g: 0.43840182, b: 0.745283, a: 0}
     - _FlowDirection1: {r: 0.05, g: 0.05, b: 0, a: 1}

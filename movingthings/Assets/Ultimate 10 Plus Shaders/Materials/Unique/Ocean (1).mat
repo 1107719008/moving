@@ -34,6 +34,6 @@ Material:
     - _NormalStrength1: 0.17
     - _NormalStrength2: 0.8
     m_Colors:
-    - _Color: {r: 0.85490197, g: 0.43529412, b: 0.04209684, a: 0.42745098}
+    - _Color: {r: 1, g: 0.25895607, b: 0, a: 0.42745098}
     - _FlowDirection1: {r: 0.05, g: 0.05, b: 0, a: 1}
     - _FlowDirection2: {r: 0, g: 0.05, b: 0, a: 1}

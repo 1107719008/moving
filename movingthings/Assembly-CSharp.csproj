@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\MovableObj.cs" />
     <Compile Include="Assets\Scripts\PlatFormController.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementPC.cs" />
+    <Compile Include="Assets\Scripts\RockVelocity.cs" />
     <Compile Include="Assets\Scripts\TeamDoor.cs" />
     <Compile Include="Assets\Scripts\colorChange.cs" />
     <Compile Include="Assets\Scripts\playerMovement.cs" />
@@ -642,6 +643,12 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>/Users/hanklin/Desktop/moveGit/moving/movingthings/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>/Users/hanklin/Desktop/moveGit/moving/movingthings/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>/Users/hanklin/Desktop/moveGit/moving/movingthings/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/hanklin/Desktop/moveGit/moving/movingthings/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -656,6 +663,15 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>/Users/hanklin/Desktop/moveGit/moving/movingthings/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>/Users/hanklin/Desktop/moveGit/moving/movingthings/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>/Users/hanklin/Desktop/moveGit/moving/movingthings/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>/Users/hanklin/Desktop/moveGit/moving/movingthings/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/hanklin/Desktop/moveGit/moving/movingthings/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
