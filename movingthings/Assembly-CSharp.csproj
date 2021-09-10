@@ -64,13 +64,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ButtonPressed.cs" />
     <Compile Include="Assets\Scripts\CubeTriggerDoor.cs" />
     <Compile Include="Assets\Scripts\DoorTrigger.cs" />
     <Compile Include="Assets\Scripts\ExplosionRock.cs" />
     <Compile Include="Assets\Scripts\HighLook.cs" />
     <Compile Include="Assets\Scripts\MovableObj.cs" />
+    <Compile Include="Assets\Scripts\PhysicsButton.cs" />
     <Compile Include="Assets\Scripts\PlatFormController.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovementPC.cs" />
     <Compile Include="Assets\Scripts\RockVelocity.cs" />
     <Compile Include="Assets\Scripts\TeamDoor.cs" />
     <Compile Include="Assets\Scripts\colorChange.cs" />

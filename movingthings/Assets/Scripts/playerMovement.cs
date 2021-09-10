@@ -42,7 +42,7 @@ public class playerMovement : MonoBehaviour
 
     //armor
     [SerializeField]private GameObject armor;
-    [SerializeField] private GameObject armorTag;
+    //[SerializeField] private GameObject armorTag;
     private bool playerHasArmor;
 
 

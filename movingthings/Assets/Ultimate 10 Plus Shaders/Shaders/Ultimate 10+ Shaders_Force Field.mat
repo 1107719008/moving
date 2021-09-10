@@ -75,7 +75,7 @@ Material:
     - _DstBlend: 0
     - _EmissionEnabled: 0
     - _FlipbookMode: 0
-    - _FresnelPower: 3
+    - _FresnelPower: 1.3
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _LightingEnabled: 1
