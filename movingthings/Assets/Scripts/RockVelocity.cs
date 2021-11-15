@@ -11,10 +11,16 @@ public class RockVelocity : MonoBehaviour
     private bool isMoving = false;
     private bool isPressed = false;
 
+    [SerializeField]
+    public float Vx;
+    public float Vy;
+    public float Vz;
 
     void Start()
     {
         rb = TheRock.GetComponent<Rigidbody>();
+        
+
     }
 
     void Update()
@@ -27,7 +33,7 @@ public class RockVelocity : MonoBehaviour
         if (isPressed==true&&isMoving==true)
         {
             
-            rb.velocity = new Vector3(0, 0, 10);
+            rb.velocity = new Vector3(Vx, Vy, Vz);
             
         }
 
@@ -51,5 +57,6 @@ public class RockVelocity : MonoBehaviour
             isMoving = true;
 
         }
+       
     }
 }

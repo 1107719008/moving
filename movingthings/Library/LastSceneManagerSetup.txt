@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/UJoystick.unity
+- path: Assets/Scenes/obstacleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

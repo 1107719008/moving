@@ -64,11 +64,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ObstacleCoursePack\Controller\CameraManager.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Controller\CharacterControls.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\Bounce.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\FPSDisplay.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\FallPlat.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\KillZone.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\MovableObs.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\Pendulum.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\Rotator.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\SavePos.cs" />
+    <Compile Include="Assets\ObstacleCoursePack\Scripts\WallMovable.cs" />
     <Compile Include="Assets\Scripts\ButtonPressed.cs" />
     <Compile Include="Assets\Scripts\CubeTriggerDoor.cs" />
     <Compile Include="Assets\Scripts\DoorTrigger.cs" />
     <Compile Include="Assets\Scripts\ExplosionRock.cs" />
     <Compile Include="Assets\Scripts\HighLook.cs" />
+    <Compile Include="Assets\Scripts\JumpPadScript.cs" />
     <Compile Include="Assets\Scripts\MovableObj.cs" />
     <Compile Include="Assets\Scripts\PhysicsButton.cs" />
     <Compile Include="Assets\Scripts\PlatFormController.cs" />
@@ -85,15 +97,15 @@
     <Compile Include="Assets\Ultimate 10 Plus Shaders\Scripts\U10PS_MouseRotation.cs" />
     <Compile Include="Assets\Ultimate 10 Plus Shaders\Scripts\U10PS_SnowOverTime.cs" />
     <Compile Include="Assets\Ultimate 10 Plus Shaders\Shaders\Plexus\Plexus.cs" />
-    <Compile Include="Assets\_Scripts\Bone.cs" />
-    <Compile Include="Assets\_Scripts\CameraController.cs" />
-    <Compile Include="Assets\_Scripts\Controller.cs" />
-    <Compile Include="Assets\_Scripts\Game.cs" />
-    <Compile Include="Assets\_Scripts\Player.cs" />
-    <Compile Include="Assets\_Scripts\Slime.cs" />
-    <Compile Include="Assets\_Scripts\TouchController.cs" />
-    <Compile Include="Assets\_Scripts\fpsdisplay.cs" />
-    <Compile Include="Assets\_Scripts\mainGUI.cs" />
+    <Compile Include="Assets\jellycube\_Scripts\Bone.cs" />
+    <Compile Include="Assets\jellycube\_Scripts\CameraController.cs" />
+    <Compile Include="Assets\jellycube\_Scripts\Controller.cs" />
+    <Compile Include="Assets\jellycube\_Scripts\Game.cs" />
+    <Compile Include="Assets\jellycube\_Scripts\Player.cs" />
+    <Compile Include="Assets\jellycube\_Scripts\Slime.cs" />
+    <Compile Include="Assets\jellycube\_Scripts\TouchController.cs" />
+    <Compile Include="Assets\jellycube\_Scripts\fpsdisplay.cs" />
+    <Compile Include="Assets\jellycube\_Scripts\mainGUI.cs" />
     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Edge Detection.shader" />
     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Grass Sway.shader" />
     <None Include="Assets\Ultimate 10 Plus Shaders\Shaders\Blur.shader" />
